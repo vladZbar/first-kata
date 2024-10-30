@@ -1,2 +1,3 @@
 # first-kata
-Учебный проект в кату
+ссылка на страницу - 
+https://vladzbar.github.io/first-kata/
