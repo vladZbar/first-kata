@@ -1,4 +1,4 @@
-@media (min-width:0px) and (max-width:767px) {
+@media (min-width:320px) and (max-width:767px) {
   body {
     background-color: #F8F8F8;
   }
@@ -152,7 +152,7 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1119px){
+@media (min-width:767px) and (max-width:1120px){
   body {
     background-color: #F8F8F8;
   }
@@ -299,7 +299,7 @@
   }
 }
 
-@media (min-width:1120px) {
+@media (min-width:1120px) and (max-width:1440px) {
   body {
     background-color: #F8F8F8;
   }
