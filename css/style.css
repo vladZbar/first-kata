@@ -119,6 +119,14 @@
     line-height: 18px;
   }
 
+ .company__text {
+  width: 100%;
+ }
+
+ .company__dop-text {
+  display: none;
+ }
+
   .company__text--size--mid {
     display: none;
   }
@@ -142,9 +150,7 @@
   }
 
   .company__image {
-    margin: 0 -16px;
-    width: 320px;
-    height: 176px;
+    width: 100%;
   }
 
   .company__image--size--desctop {
@@ -207,6 +213,9 @@
   .title__button--size--desctop {
     display: none;
   }
+  .company__image--size--mob {
+    display: none;
+  }
 
   .title__content {
     font-family: 'TT Lakes Condensed';
@@ -255,12 +264,15 @@
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
 
   .company__desc {
     font-family: 'TT Lakes';
     font-size: 14px;
     line-height: 20px;
+    width: 50%;
+    /* position: relative; */
   }
 
   .company__text--size--mob {
@@ -269,6 +281,11 @@
 
   .company__text--size--desctop {
     display: none;
+  }
+
+  .company__text {
+    display: inline-block;
+    width: 100%;
   }
 
   .read-me {
@@ -286,12 +303,18 @@
     margin-left: 8px;
     line-height: 24px;
   }
+  
+  .dop-text__text--size--desctop {
+    display: none;
+  }
 
-  .company__image {
-    height: 208px;
-    width: 360px;
-    border-radius: 6px;
-    /* margin-left: 48px; */
+
+  .company__image--size--desctop {
+    width: 50%;
+    display: block;
+    position: absolute;
+    right: -16px;
+    top: 0;
   }
 
   .company__image--size--mobile {
@@ -385,6 +408,7 @@
   .navbar {
     display: flex;
     flex-wrap: wrap;
+    overflow-y: hidden;
   }
   
   .navbar-block {
@@ -421,12 +445,14 @@
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
 
   .company__desc {
     font-family: 'TT Lakes';
     font-size: 14px;
     line-height: 20px;
+    width: 50%;
   }
 
   .company__text--size--mob {
@@ -453,11 +479,19 @@
     line-height: 24px;
   }
 
+
+  .dop-text__text--size--desctop {
+    display: inline;
+  }
+
   .company__image {
     height: 307px;
-    width: 531px;
     border-radius: 6px;
-    /* margin-left: 48px; */
+    width: 50%;
+    display: block;
+    position: absolute;
+    right: -16px;
+    top: 0;
   }
 
   .company__image--size--mobile {
