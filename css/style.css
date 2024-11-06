@@ -424,11 +424,6 @@
     font-size: 16px;
   }
 
-  .navbar-block:hover {
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-  }
-
   .navbar-block:focus {
     border: 2px solid #B8FFEC;
     border-radius: 6px;
