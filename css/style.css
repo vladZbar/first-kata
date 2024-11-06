@@ -322,7 +322,7 @@
   }
 }
 
-@media (min-width:1120px) and (max-width:1440px) {
+@media (min-width:1120px){
   body {
     background-color: #F8F8F8;
   }
