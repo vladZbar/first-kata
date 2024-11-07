@@ -442,35 +442,36 @@
   }
 
 
-  .navbar {
+.navbar {
     display: flex;
-    flex-wrap: wrap;
     overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    flex-wrap: wrap;
   }
   
   .navbar-block {
+    
     height: 40px;
     display: flex;
+    width: max-content;
     align-items: center;
-    white-space: nowrap;
     justify-content: center;
+    white-space: nowrap;
     line-height: 16px;
     font-size: 16px;
+    padding: 16.2px;
   }
-
-  .navbar-block:focus {
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-  }
-
-  .navbar-block__text {
-    color: #7E7E82;
-    font-family: 'TT Lakes';
-    font-weight: 500;
-    padding-top: 16.2px;
-    padding-bottom: 16.2px;
-    padding-left: 16.2px;
-    padding-right: 16.2px;
+   
+    .navbar-block:focus {
+      border: 2px solid #B8FFEC;
+      border-radius: 6px;
+    }
+    
+    .navbar-block__text {
+      color: #7E7E82;
+      font-family: 'TT Lakes';
+      font-weight: 500;
   }
 
   .company {
