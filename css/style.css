@@ -33,6 +33,17 @@
     border-radius: 50%;
   }
 
+  .header__icon:last-child {
+    margin-left: 16px;
+  }
+  .header__icon:nth-child(1) {
+    margin-right: 16px;
+  }
+
+  .header__logo {
+    margin-right: auto;
+  }
+
   .header__icon:nth-child(4) {
     display: none;
   }
