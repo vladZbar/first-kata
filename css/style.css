@@ -60,6 +60,7 @@
     width: 2px;
     height: 32px;
     background-color: #EAEAEA;
+    margin-right: 16px;
   }
 
   .header__decor:nth-child(2) {
