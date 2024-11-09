@@ -382,7 +382,7 @@
   .navbar::before {
     content: '';
     display: block;
-    position: absolute;
+    position: fixed;
     height: 81px;
     width: 24px;
     right:0;
